@@ -25,3 +25,14 @@ let desc = 25/100;
 let res = parseInt(compra)- parseInt(compra*desc);
 
 alert("el valor total a pagar esde $ "+res);
+
+/* Ejercicio 4 - Suponga que un individuo desea invertir su capital en un banco y desea saber
+cuánto dinero ganara después de un mes si el banco paga a razón de 2%
+mensual */
+
+let dinero = prompt("Ingrese el valor del dinero invertido");
+let raz = 2/100;
+let resu = parseInt(dinero)+ parseInt(dinero*raz);
+
+alert("el dinero que usted a ganado en el transcurso de este mes es $ " +resu);
+
