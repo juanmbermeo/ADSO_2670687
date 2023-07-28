@@ -72,3 +72,15 @@ let tiempo = prompt("ingrese el tiempo de la carrera en minutos");
 let mpagar = parseInt(15000*distancia)+ parseInt(2000*tiempo);
 
 alert("el monto a pagar es de $ " + mpagar);
+
+/*Realizara un programa en el cual se van a leer tres números y determinar el
+cuadrado de cada uno de ellos. */
+
+let num1 = prompt("ingrese el primer número")
+let num2 = prompt("ingrese el segundo número")
+let num3 = prompt("ingrese el tercer núemro")
+let cua1 = Math.pow(num1, 2);
+let cua2 = Math.pow(num2, 2);
+let cua3 = Math.pow(num3, 2);
+
+alert("el cuadrado de los tres numeros es de " +cua1+ " el primer numero," +cua2+" el segundo numero y " +cua3+ " el tercer numero");
