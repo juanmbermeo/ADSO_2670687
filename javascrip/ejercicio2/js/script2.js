@@ -45,8 +45,6 @@ c. 15% de la calificación de un trabajo final. */
 let promedio = prompt("ingrese el promedio de sus calificaciones");
 let exam = prompt("ingrse la calificacion de su examen final");
 let trab = prompt("ingrese la calificacion de su trabajo final");
-let prom = parseInt(promedio)+ parseInt(trab)+ parseInt(exam);
-let prom2 = parseInt(prom/3);
 let pprom = 55/100;
 let pexam = 30/100;
 let ptrab = 15/100;
@@ -65,3 +63,12 @@ let porce = 30/100;
 let ptotal = parseInt(pa)+ parseInt(pa*porce);
 
 alert("el precio al que debe vender el producto es de $ " +ptotal);
+
+/* Ejercicio 7 - Un taxi cobra por una carrera 15 mil pesos por kilómetro recorrido y 2 mil por
+minuto. Determine el monto a pagar por una carrera. */
+
+let distancia = prompt("ingrese la distancia recorrida en kilometros");
+let tiempo = prompt("ingrese el tiempo de la carrera en minutos");
+let mpagar = parseInt(15000*distancia)+ parseInt(2000*tiempo);
+
+alert("el monto a pagar es de $ " + mpagar);
