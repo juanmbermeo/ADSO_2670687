@@ -56,3 +56,12 @@ let pt = parseInt(trab*ptrab);
 let cf = parseInt(pp)+ parseInt(pe)+ parseInt(pt);
 
 alert("su calificacion final en la materia de algoritmos es de " +cf);
+
+/* Ejercicio 6 - El dueño de una tienda compra un artículo a un precio determinado. Obtener el
+precio en que lo debe vender para obtener una ganancia del 30%*/
+
+let pa = prompt("Ingresa el valor del articulo comprado");
+let porce = 30/100;
+let ptotal = parseInt(pa)+ parseInt(pa*porce);
+
+alert("el precio al que debe vender el producto es de $ " +ptotal);
