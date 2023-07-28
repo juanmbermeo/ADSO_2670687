@@ -36,3 +36,23 @@ let resu = parseInt(dinero)+ parseInt(dinero*raz);
 
 alert("el dinero que usted a ganado en el transcurso de este mes es $ " +resu);
 
+/*Ejercicio 5 - Un alumno desea saber cuál será su calificación final en la materia de
+Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
+a. 55% del promedio de sus tres calificaciones parciales.
+b. 30% de la calificación del examen final.
+c. 15% de la calificación de un trabajo final. */
+
+let promedio = prompt("ingrese el promedio de sus calificaciones");
+let exam = prompt("ingrse la calificacion de su examen final");
+let trab = prompt("ingrese la calificacion de su trabajo final");
+let prom = parseInt(promedio)+ parseInt(trab)+ parseInt(exam);
+let prom2 = parseInt(prom/3);
+let pprom = 55/100;
+let pexam = 30/100;
+let ptrab = 15/100;
+let pp = parseInt(promedio*pprom);
+let pe = parseInt(exam*pexam);
+let pt = parseInt(trab*ptrab);
+let cf = parseInt(pp)+ parseInt(pe)+ parseInt(pt);
+
+alert("su calificacion final en la materia de algoritmos es de " +cf);
