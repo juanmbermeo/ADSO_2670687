@@ -84,3 +84,22 @@ let cua2 = Math.pow(num2, 2);
 let cua3 = Math.pow(num3, 2);
 
 alert("el cuadrado de los tres numeros es de " +cua1+ " el primer numero," +cua2+" el segundo numero y " +cua3+ " el tercer numero");
+
+/*En un hospital existen tres áreas: Ginecología, Pediatría, Traumatología. El
+presupuesto anual del hospital se reparte conforme a la sig. tabla:
+Area          : Porcentaje del presupuesto
+ginecología   : 40%
+traumatología : 30% 
+pediatría     : 30%
+Obtener la cantidad de dinero que recibirá cada área, para cualquier monto
+presupuestal.*/
+
+let presupuesto = prompt("Ingrece el presepuesto de este año en el hospital");
+let gine = 40/100;
+let trau = 30/100;
+let pedi = 30/100;
+let resg = parseInt(presupuesto*gine);
+let rest = parseInt(presupuesto*trau);
+let resp = parseInt(presupuesto*pedi);
+
+alert("el presupuesto del hopital queda dividido de la siguiente manera: $" +resg+ " en el area de ginecología,$" +rest+ " en el area de traumatología y $" +resp+ " en el area de pediatría.");
