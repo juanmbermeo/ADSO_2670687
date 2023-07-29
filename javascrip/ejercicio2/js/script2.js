@@ -107,7 +107,6 @@ alert("el presupuesto del hopital queda dividido de la siguiente manera: $" +res
 /*Ejercico 8 - El dueño de una tienda compra un artículo a un precio determinado. Obtener el
 precio en que lo debe vender para obtener una ganancia del 30%. "REPETIDO"*/
 
-
 /*Ejercicio 9 - Tres personas deciden invertir su dinero para fundar una empresa. Cada una de
 ellas invierte una cantidad distinta. Obtener el porcentaje que cada quien invierte
 con respecto a la cantidad total invertida. */
@@ -124,3 +123,21 @@ alert("El porcentaje que cada persona invirtio en la fundacion de la empresa es 
 
 /*Ejercicio 10 - Realizar una calculadora con las operaciones básicas suma, división,
 multiplicación y división. */
+
+let opcion = prompt("1. suma 2. resta 3. division 4. multiplcacion");
+let nume1 = prompt("digite el numero 1");
+let nume2 = prompt("digite el numero 2");
+
+if (opcion==1){
+    suma=parseInt(nume1)+parseInt(nume2);
+    alert(suma);
+} else if(opcion==2){
+    resta=parseInt(nume1)-parseInt(nume2);
+    alert(resta);
+} else if(opcion==3){
+    division=parseInt(nume1)/parseInt(nume2);
+    alert(division);
+} else {
+    multiplicacion=parseInt(nume1)*parseInt(nume2);
+    alert(multiplicacion);
+}
